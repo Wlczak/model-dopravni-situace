@@ -1,8 +1,8 @@
-# 3R - Projekt - Model reálné dopravní situace
+# 3H - Projekt - Model reálné dopravní situace
 
-vzorové repo pro projekt - Model reálné dopravní situace - 3.R předmět IoT
-
-> **_začněte naklonováním tohoto repozitáře_**
+ - Model reálné dopravní situace - 3.H předmět IoT
+ - Adam Vlček
+ - Téma: železniční přejezd
 
 ## Obsah
 * **README.md**
