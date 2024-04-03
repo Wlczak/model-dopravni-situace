@@ -6,7 +6,7 @@ int redLeft = 2;
 int redRight = 3;
 int white = 4;
 int button = 5;
-int servoPos = 0;
+int servoPos = 100;
 int piezo = A0;
 unsigned long servoTime = 0;
 unsigned long lightTime = 0;
@@ -33,7 +33,7 @@ void loop() {
     redLight(15);
 
 
-    while (servoPos < 90) {
+    while (servoPos < 131) {
       if (millis() - servoTime > 40) {
         myservo.write(servoPos);
         servoPos++;
@@ -64,7 +64,7 @@ void loop() {
     digitalWrite(redRight, LOW);
 
 
-    if (servoPos > 0) {
+    if (servoPos > 65) {
       if (millis() - servoTime > 40) {
         myservo.write(servoPos);
         servoPos--;
